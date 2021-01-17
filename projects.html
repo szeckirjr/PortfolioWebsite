@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eduardo Szeckir</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pangolin">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/c5d986a0a0.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body style="padding-bottom:90px;">
+
+    <div id="particles-js">
+      <script src="js/particles.js"></script>
+      <script src="js/app.js"></script>
+    </div>
+
+    <div style="top:0;" class="topnav" id="myTopnav">
+      <a href="home.html">Home</a>
+      <a href="aboutme.html">About</a>
+      <a href="workexperience.html">Experience</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div id="content">
+
+      <div class="title">
+        <h1 style="font-size: 80px;margin-top: 100px;">Projects</h1>
+        <h2 style="font-size: 40px;margin-top: 60px;">SCHOOL</h2>
+      </div>
+      <div class="textbox">
+        <p><b>Keyword-Out-Of-Context (KWOC)</b><br><br>This project was an assignment for my Software Development Methods class - <a target="_blank" style="color:#101010;" href="https://www.uvic.ca/calendar2020-05/undergrad/index.php#/courses/r1l00yY67E?bc=true&bcCurrent=Software%20Development%20Methods&bcItemType=Courses"><i>SENG265</i></a>.<br><br>
+        The goal of this project was to code a program that can generate a concordance from a text file, which is an alphabetical list of the principal words used in a text file, listing every instance of each word with its immediate context (line and line number). The hardest part about this project was resolving memory leak problems with C, but by using valgrind I was able to restore all bits of memory.<br><br>We had different versions of this program, coded in both C and Python. You can find the GitHub page for each of them by clicking on the links below:<br><br><a target="_blank" style="font-size: 25px;color:black;" href="https://github.com/szeckirjr/KWOCinC">C</a><span  style="font-size: 25px;color:black;" > or </span><a target="_blank" style="font-size: 25px;color:black;" href="https://github.com/szeckirjr/KWOCinPython">Python</a></p>
+      </div>
+      <div class="textbox">
+        <p><b>VEX Robot</b><br><br>This project was a team project for my second Design and Communication class - <a target="_blank" style="color:#101010;" href="https://www.uvic.ca/calendar/undergrad/#/courses/HJesq7O67E?bc=true&bcCurrent=Design%20and%20Communication%20II&bcItemType=Courses"><i>ENGR120</i></a>.<br><br>
+        The goal of this project was to design, build, and program a robot using a VEX Robotics Kit provided by the university. The robot would have to navigate within an arena, avoid its walls, and find a beacon emitting infrared light. When the beacon is found, the robot would approach it, connect a cable to it in some way, and then back away without getting the cable tangled.<br>As the programmer for my team, I had to learn/use  RobotC to get values from sensors and make the robot move in the required way. The hardest part of the project was reading the values received by the infrared receptor, since sometimes the infrared signal would bounce off the walls of the arena.<br><br>We had multiple different versions of this program, but to check out the final version of the code used, you can click on the link bellow to go to the repository page on GitHub:<br><br><a target="_blank" style="font-size: 25px;color:black;" href="https://github.com/szeckirjr/VEXKitRobot">Repository</a></p>
+      </div>
+
+      <div class="title">
+        <h2 style="font-size: 40px;margin-top: 70px;">PERSONAL</h2>
+      </div>
+      <div class="textbox">
+        <p><b>This website!</b><br><br>I have been meaning to code a website from scratch for a long time, so when I started applying for Co-Op jobs I thought it would be a great idea to make a portfolio one.<br><br>
+        This was coded entirely in HTML5, CSS and JavaScript. The hardest part about this website was making it responsive for different sized screens. I had first coded all my pages without thinking about it, and would only later find out how bad it looked on my phone, but I was able to recode every page to make it responsive to all screen sizes.</p>
+      </div>
+
+
+
+    </div>
+
+  </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Szeckir</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body style="overflow-x:hidden;">
+
+    <div id="particles-js">
+      <script src="js/particles.js"></script>
+      <script src="js/app.js"></script>
+    </div>
+
+    <h1 id="wtitle">Work Experience</h1>
+
+    <div id="uviccampus">
+      <img src="https://onlineacademiccommunity.uvic.ca/studentmentalhealth/wp-content/uploads/sites/1283/2016/08/Uvic_aerial.jpg">
+      <h5>CAMPUS TOUR GUIDE</h5>
+      <p><b>Nov. 2019 - Present</b><br><br>
+      Representing UVic as a Campus Tour Guide by showing the campus to prospective students and their families.<br>
+      Acquired skills such as public speaking and interpersonal relations.</p>
+    </div>
+
+    <div id="digitizationass">
+      <img src="https://blog.archive.org/wp-content/uploads/2015/10/Tabletop-Scribe-low-res.jpeg">
+      <h5>DIGITIZATION ASSISTANT</h5>
+      <p><b>Sep. 2019 - Apr. 2020</b><br><br>
+      Scanning old BC Gazettes with the intent of uploading them into the Internet Archive.<br>
+      Learned how to use new equipament/software very fast, while learning how to work on an office environment for hours a day.</p>
+    </div>
+
+    <div id="painting">
+      <img src="https://s3-us-west-2.amazonaws.com/usedphotosna/73777586_934.jpg">
+      <h5>STUDENT PAINTER</h5>
+      <p><b>May. 2019 - Sep. 2019</b><br><br>
+      Working as a student painter over the summer.<br>
+      Worked with clients (i.e. answering questions and handling any concerns they might have had) and worked outdoors. Also learned to be extremely flexible, since our time/location was usually given 30min before the job started.</p>
+    </div>
+
+    <h1 id="vtitle">Volunteer Experience</h1>
+    <div id="orientation">
+      <img src="https://www.uvic.ca/orientation/assets/images/photos/billboards/orientation_billboard1.jpg">
+      <h5>ORIENTATION LEADER</h5>
+      <p><b><br><br>Sep. 2019</b><br><br>
+      Volunteered as an orientation leader for the New Student Welcome events for new students, by giving tours, answering questions, and initiating ice breakers to welcome new students to UVic.<br>
+      Worked with a group of about 30 people throughout the day - a lot of responsability, a tight timed schedule, and great improvements on public speaking and interpersonal skills!</p>
+    </div>
+
+    <div id="menubar">
+      <a href="home.html">Home</a><br>
+      <a href="aboutme.html">About Me</a><br>
+      <a href="workexperience.html">Experience</a><br>
+      <a href="courses.html">Courses Taken</a><br>
+      <a href="">Projects - Portfolio</a><br>
+      <a href="">Life Goals</a><br>
+      <a href="">Contact Me!</a><br>
+      <p style="transform:translateY(-10px)">Design created by Eduardo Szeckir</p>
+    </div>
+
+  </body>
+</html> -->
